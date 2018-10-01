@@ -1,7 +1,7 @@
 from django.urls import path
+from testapp.views import upload_img
 
-from testapp.views import uploadImg
 
 urlpatterns = [
-    path('uploadImg/', uploadImg), # 新增
+    path('uploadImg/', upload_img), #新增
 ]

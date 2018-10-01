@@ -13,12 +13,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-
+from django.urls import path, include, re_path
+from WebClient import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include('RESTfulApi.urls')),
-    path('img/',include('testapp.urls')),
-    path('web/', include('WebClient.urls')),
+    path('addDish/', views.go_add_dish),
+    path('gogo/', views.gogo)
+
 ]
