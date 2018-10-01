@@ -1,0 +1,22 @@
+.navbar-mcss{
+    width: 100%;
+}
+
+.tools{
+    height: 80px;
+    width: 100%;
+    background-color: antiquewhite;
+    float: none;
+}
+
+.content{
+    background-color:rgb(176, 220, 255);
+}
+
+.input-area{
+    background-color:rgb(247, 247, 247);
+}
+.dividermcss{
+    height: 1px;
+    background-color: black; 
+}
